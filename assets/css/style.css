@@ -1,0 +1,43 @@
+.bg{
+    
+    position:fixed;
+    width:100%;
+    height:150px; /*same as jumbotron*/
+    top:0;
+    left:0;
+    z-index: -1;
+    background-color:lightyellow;
+}
+.jumbotron{
+    background-image: url("../images/Banner800.gif");
+    margin-bottom: 0px;
+    height:150px;
+    max-width: 100%
+    
+    text-shadow: black 0.2em 0.2em 0.2em;
+
+/*instead of bimg in body - include in jumbotron....
+    background-image: url("assets/images/outsideStation.jpeg") no-repeat center center;
+    background-attachment:fixed;
+    min.height:;
+    margin-top:0px;
+    */
+
+.time{
+
+}
+}
+body{
+    border:black 15px solid;
+    background-image: url("assets/images/blueLogtrain.jpeg") no-repeat center center;
+
+}
+h1{
+    font-size:32px;
+    font:black;
+}
+
+.imagegallery{
+    margin: 0px 40px;
+    
+}
